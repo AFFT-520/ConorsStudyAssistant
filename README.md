@@ -1,2 +1,2 @@
-# ConorsStudyGuide
-The official repository for Conor's Study Guide Android application.
+# ConorsStudyAssistant
+The official repository for Conor's Study Assistant Android application.
