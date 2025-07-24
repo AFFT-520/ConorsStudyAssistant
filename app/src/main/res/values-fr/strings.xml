@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Study Assistant</string>
+    
+
+    <string name="next">Suivant</string>
+    <string name="previous">Pr&#233;c&#233;dent</string>
+    <string name="skip">Sauter</string>
+    <string name="finish">Terminer</string>
+    <string name="apikeymissing">La cl&#233; API est manquante. Veuillez la configurer.</string>
+    <string name="quiz_saved_successfully">Le quiz a &#233;t&#233; enregistr&#233; avec succ&#232;s!</string>
+    <string name="notice_title">Une note sur l&#8217;utilisation du g&#233;n&#233;rateur&#8230;</string>
+    <string name="tutorial_1">Avant de commencer, nous aurons besoin d\'obtenir une cl&#233; API Google Gemini pour vous.</string>
+    <string name="tutorial_2">Cliquez sur le lien dans ce message. Ensuite, appuyez sur &#8801; &gt; Obtenir la cl&#233; API &gt; Cr&#233;er une cl&#233; API &gt; Cr&#233;er une cl&#233; API dans un nouveau projet. Copiez la cl&#233;.</string>
+    <string name="tutorial_3">Collez la cl&#233; API ici.</string>
+    <string name="tutorial_4">Vous &#234;tes pr&#234;t(e) &#224; partir! Si vous avez besoin de revoir ces options, vous pouvez cliquer sur ce bouton pour les afficher et les masquer.</string>
+    <string name="notice_text">Le g&#233;n&#233;rateur utilise l\'IA Gemini de Google pour cr&#233;er des guides d\'&#233;tude et des cartes m&#233;moire. Bien que l\'IA puisse &#234;tre un excellent outil pour ce type de t&#226;che, il est &#233;galement important de l\'utiliser avec prudence.\n\nEn particulier, l\'IA peut g&#233;n&#233;rer des cartes m&#233;moire et des guides qui contiennent:\n\n- Des informations inexactes/trompeuses\n- Du contenu offensant\n- Des informations biais&#233;es\n- Du contenu obsol&#232;te\n\nIl est conseill&#233; de compl&#233;ter l\'utilisation de cette application avec d\'autres supports d\'&#233;tude afin de garantir l\'exactitude des informations.\n\nL\'application est con&#231;ue pour utiliser la version gratuite de Gemini. Si vous &#234;tes un d&#233;veloppeur disposant d\'autres cl&#233;s API Gemini, veuillez suivre chaque &#233;tape des instructions apr&#232;s cette notification, y compris la cr&#233;ation d\'un nouveau projet et d\'une nouvelle cl&#233; API. Cela permettra d\'&#233;viter les probl&#232;mes li&#233;s aux limites de d&#233;bit et aux co&#251;ts d\'utilisation.</string>
+    <string name="notice_confirm">Compris</string>
+    <string name="submit_button_getQuiz">Obtenir des questions</string>
+    <string name="submit_button_getStudyGuide">Obtenir le guide d\'&#233;tude</string>
+    <string name="notice_generating_studyGuide">Veuillez noter que la g&#233;n&#233;ration de guides d\'&#233;tude, en particulier les guides volumineux, peut prendre un certain temps, environ 2 &#224; 3 sections par minute.</string>
+    <string name="main_tutorial1">Bienvenue sur Conor\'s Study Assistant! Guidons-vous &#224; travers les op&#233;rations de base!</string>
+    <string name="main_tutorial2">Cliquez ici pour g&#233;n&#233;rer un nouveau quiz ou guide d\'&#233;tude bas&#233; sur un sujet!</string>
+    <string name="main_tutorial3">Une fois que vous avez termin&#233; de g&#233;n&#233;rer, cliquez ici pour le charger!</string>
+    <string name="main_tutorial4">Vous &#234;tes pr&#234;t &#224; commencer &#224; &#233;tudier!</string>
+    <string name="main_button_select">S&#233;lectionner Quiz/Guide</string>
+    <string name="main_button_generate_note">Commencez par g&#233;n&#233;rer un quiz ou un guide d\'&#233;tude ici:</string>
+    <string name="main_button_generate">G&#233;n&#233;rer un quiz/guide</string>
+    <string name="quiz_questionNumber">Question %1$d sur %2$d</string>
+    <string name="quiz_score">Score: %1$d/%2$d (%3$d%%)</string>
+    <string name="getjson_language_label">Langue</string>
+    <string name="getjson_isexam">Ceci est un examen.</string>
+    <string name="getjson_quizorstudyguide_label">Quiz ou guide d\'&#233;tude:</string>
+    <string name="getjson_section_limit_switch">Limiter le nombre de sections?</string>
+    <string name="getjson_num_questions">Nombre de questions:</string>
+    <string name="getjson_num_topics">Nombre de sujets:</string>
+    <string name="getjson_apioptions_button_on">Masquer la configuration de la cl&#233; API</string>
+    <string name="getjson_apioptions_button_off">Afficher la configuration de la cl&#233; API</string>
+    <string name="getjson_api_key_label">Cl&#233; API Gemini</string>
+    <string name="getjson_api_key_note">Remarque: vous pouvez obtenir une cl&#233; API &#224; l\'adresse https://aistudio.google.com/. &#192; partir de l&#224;, cliquez sur &#8801; &gt; Obtenir une cl&#233; API &gt; Cr&#233;er une cl&#233; API &gt; Cr&#233;er une cl&#233; API dans un nouveau projet.</string>
+    <string name="getjson_advancedoptions_on">Masquer les options avanc&#233;es</string>
+    <string name="getjson_advancedoptions_off">Afficher les options avanc&#233;es</string>
+    <string name="getjson_additionalpromptinfo">Demandes d\'invites suppl&#233;mentaires</string>
+    <string name="quiz_correct">Correct!</string>
+    <string name="quiz_incorrect">Incorrect!</string>
+    <string name="quiz_select">S&#233;lectionner: %1$d</string>
+    <string name="quiz_submit">Soumettre</string>
+    <string name="quiz_next">Question suivante</string>
+    <string name="studyguide">Guide d\'&#233;tude</string>
+    <string name="quiz">Quiz</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="error_apiKeyEmpty">Le champ Cl&#233; API est visible mais vide.</string>
+    <string name="error_topicNameEmpty">Le sujet ne peut pas &#234;tre vide.</string>
+    <string name="studyguide_generating">Votre guide d\'&#233;tude est en cours de cr&#233;ation! Cela peut prendre un peu de temps, surtout pour un guide plus cons&#233;quent. Veuillez patienter! Restez sur cette page jusqu\'&#224; ce qu\'on vous demande de sauvegarder!</string>
+    <string name="flashcard_generating">Vos fiches sont en cours de cr&#233;ation! Cela peut prendre une minute ou deux, veuillez patienter! Restez sur cette page jusqu\'&#224; ce qu\'on vous demande de sauvegarder!</string>
+    <string name="no_topic_toast">Un sujet est requis.</string>
+    <string name="no_api_key_toast">Une cl&#233; API est requise.</string>
+    <string name="topicLabel">Sujet d\'&#233;tude/Nom de l\'examen</string>
+    <string name="title_activity_study_list">Liste d\'&#233;tude</string>
+    <string name="timeElapsed">Temps &#233;coul&#233;:</string>
+    <string name="testOverLabel">Fin du test!</string>
+    <string name="testOverScoreLabel">Vous avez obtenu:</string>
+    <string name="testOverTimeLabel">Heure:</string>
+    <string name="testOverBackLabel">Retour au menu principal</string>
+    <string name="generating_study_guide">G&#233;n&#233;ration du guide d\'&#233;tude&#8230;</string>
+    <string name="generating_questions">G&#233;n&#233;ration du quiz&#8230;</string>
+    <string name="quiz_gen_successful">Quiz g&#233;n&#233;r&#233; avec succ&#232;s!</string>
+
+
+</resources>

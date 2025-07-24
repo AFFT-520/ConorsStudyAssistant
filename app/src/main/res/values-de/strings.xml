@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Study Assistant</string>
+    
+
+    <string name="next">Weiter</string>
+    <string name="previous">Vorherige</string>
+    <string name="skip">&#220;berspringen</string>
+    <string name="finish">Fertigstellen</string>
+    <string name="apikeymissing">Fehlender API-Schl&#252;ssel. Bitte konfigurieren Sie ihn.</string>
+    <string name="quiz_saved_successfully">Quiz erfolgreich gespeichert!</string>
+    <string name="notice_title">Eine Anmerkung zur Verwendung des Generators&#8230;</string>
+    <string name="tutorial_1">Bevor wir beginnen, ben&#246;tigen wir einen Google Gemini API-Schl&#252;ssel f&#252;r Sie.</string>
+    <string name="tutorial_2">Tippen Sie auf den Link in dieser Nachricht. Dort tippen Sie auf &#8801; &gt; API-Schl&#252;ssel abrufen &gt; API-Schl&#252;ssel erstellen &gt; API-Schl&#252;ssel in neuem Projekt erstellen. Kopieren Sie den Schl&#252;ssel.</string>
+    <string name="tutorial_3">F&#252;gen Sie den API-Schl&#252;ssel hier ein.</string>
+    <string name="tutorial_4">Du bist startklar! Wenn du diese Optionen erneut sehen m&#246;chtest, kannst du auf diese Schaltfl&#228;che klicken, um sie anzuzeigen und auszublenden.</string>
+    <string name="notice_text">Der Generator verwendet Googles Gemini KI, um Lernleitf&#228;den und Karteikarten zu erstellen. Obwohl KI ein ausgezeichnetes Werkzeug f&#252;r diese Art von Aufgabe sein kann, sollte sie auch mit Vorsicht verwendet werden.\n\nInsbesondere kann die KI Karteikarten und Leitf&#228;den erstellen, die:\n\n- Ungenaue/Irref&#252;hrende Informationen enthalten\n- Anst&#246;&#223;ige Inhalte enthalten\n- Voreingenommene Informationen enthalten\n- Veraltete Inhalte enthalten\n\nEs wird empfohlen, die Nutzung dieser Anwendung durch andere Lernmaterialien zu erg&#228;nzen, um die Richtigkeit sicherzustellen.\n\nDie Anwendung ist f&#252;r die Nutzung von Geminis kostenlosem Tarif konzipiert. Wenn Sie ein Entwickler mit anderen Gemini API-Schl&#252;sseln sind, befolgen Sie bitte jeden Schritt der Anweisungen nach diesem Hinweis trotzdem, einschlie&#223;lich der Erstellung eines neuen Projekts und API-Schl&#252;ssels. Dies verhindert Probleme mit Ratenbegrenzungen und abrechenbarer Nutzung.</string>
+    <string name="notice_confirm">Verstanden.</string>
+    <string name="submit_button_getQuiz">Fragen abrufen</string>
+    <string name="submit_button_getStudyGuide">Lernleitfaden herunterladen</string>
+    <string name="notice_generating_studyGuide">Bitte beachten Sie, dass das Erstellen von Lernhilfen, insbesondere umfangreicherer, eine Weile dauern kann, etwa 2&#8211;3 Abschnitte pro Minute.</string>
+    <string name="main_tutorial1">Willkommen bei Conor\'s Study Assistant! Lass uns dich durch die grundlegenden Operationen f&#252;hren!</string>
+    <string name="main_tutorial2">Klicke hier, um ein neues Quiz oder eine neue Lernhilfe basierend auf einem Thema zu erstellen!</string>
+    <string name="main_tutorial3">Sobald du mit der Erstellung fertig bist, klicke hier, um es zu laden!</string>
+    <string name="main_tutorial4">Du bist bereit, mit dem Lernen zu beginnen!</string>
+    <string name="main_button_select">Quiz/Leitfaden ausw&#228;hlen</string>
+    <string name="main_button_generate_note">Beginne hier mit der Erstellung eines Quiz oder einer Lernhilfe:</string>
+    <string name="main_button_generate">Quiz/Leitfaden erstellen</string>
+    <string name="quiz_questionNumber">Frage %1$d von %2$d</string>
+    <string name="quiz_score">Punktzahl: %1$d/%2$d (%3$d%%)</string>
+    <string name="getjson_language_label">Sprache</string>
+    <string name="getjson_isexam">Dies ist eine Pr&#252;fung.</string>
+    <string name="getjson_quizorstudyguide_label">Quiz oder Lernhilfe:</string>
+    <string name="getjson_section_limit_switch">Anzahl der Abschnitte begrenzen?</string>
+    <string name="getjson_num_questions">Anzahl der Fragen:</string>
+    <string name="getjson_num_topics">Anzahl der Themen:</string>
+    <string name="getjson_apioptions_button_on">API-Schl&#252;ssel-Konfiguration ausblenden</string>
+    <string name="getjson_apioptions_button_off">API-Schl&#252;sselkonfiguration anzeigen</string>
+    <string name="getjson_api_key_label">Gemini API-Schl&#252;ssel</string>
+    <string name="getjson_api_key_note">Hinweis: Sie erhalten einen API-Schl&#252;ssel unter https://aistudio.google.com/. Klicken Sie dort auf &#8801; &gt; API-Schl&#252;ssel abrufen &gt; API-Schl&#252;ssel erstellen &gt; API-Schl&#252;ssel in neuem Projekt erstellen.</string>
+    <string name="getjson_advancedoptions_on">Erweiterte Optionen ausblenden</string>
+    <string name="getjson_advancedoptions_off">Erweiterte Optionen anzeigen</string>
+    <string name="getjson_additionalpromptinfo">Zus&#228;tzliche Prompt-Anfragen</string>
+    <string name="quiz_correct">Richtig!</string>
+    <string name="quiz_incorrect">Falsch!</string>
+    <string name="quiz_select">Ausw&#228;hlen: %1$d</string>
+    <string name="quiz_submit">Absenden</string>
+    <string name="quiz_next">N&#228;chste Frage</string>
+    <string name="studyguide">Lernanleitung</string>
+    <string name="quiz">Quiz</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="error_apiKeyEmpty">Das Feld "API Key" ist sichtbar, aber leer.</string>
+    <string name="error_topicNameEmpty">Das Thema darf nicht leer sein.</string>
+    <string name="studyguide_generating">Ihre Lernhilfe wird erstellt! Das kann eine Weile dauern, besonders bei einer gr&#246;&#223;eren. Bitte haben Sie Geduld! Bleiben Sie auf dieser Seite, bis Sie aufgefordert werden, zu speichern!</string>
+    <string name="flashcard_generating">Ihre Karteikarten werden erstellt! Es kann ein paar Minuten dauern, bitte haben Sie Geduld! Bleiben Sie auf dieser Seite, bis Sie aufgefordert werden, zu speichern!</string>
+    <string name="no_topic_toast">Ein Thema ist erforderlich.</string>
+    <string name="no_api_key_toast">Ein API-Schl&#252;ssel ist erforderlich.</string>
+    <string name="topicLabel">Studienthema/Pr&#252;fungsname</string>
+    <string name="title_activity_study_list">Studienliste</string>
+    <string name="timeElapsed">Verlaufene Zeit:</string>
+    <string name="testOverLabel">Test vorbei!</string>
+    <string name="testOverScoreLabel">Du hast erreicht:</string>
+    <string name="testOverTimeLabel">Zeit:</string>
+    <string name="testOverBackLabel">Zur&#252;ck zum Hauptmen&#252;</string>
+    <string name="generating_study_guide">Lernen Sie Leitfaden erstellen&#8230;</string>
+    <string name="generating_questions">Quiz wird erstellt&#8230;</string>
+    <string name="quiz_gen_successful">Quiz erfolgreich erstellt!</string>
+
+
+</resources>

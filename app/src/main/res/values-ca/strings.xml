@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Study Assistant</string>
+    
+
+    <string name="next">Seg&#252;ent</string>
+    <string name="previous">Anterior</string>
+    <string name="skip">Salta</string>
+    <string name="finish">Acabar</string>
+    <string name="apikeymissing">Falta la clau API. Si us plau, configureu-la.</string>
+    <string name="quiz_saved_successfully">&#161;Test guardat correctament!</string>
+    <string name="notice_title">Una nota sobre l\'&#250;s del generador&#8230;</string>
+    <string name="tutorial_1">Abans de comen&#231;ar, necessitarem que obtingueu una clau API de Google Gemini.</string>
+    <string name="tutorial_2">Toca l\'enlla&#231; en aquest missatge. Des d\'all&#224;, toca &#8801; &gt; Obt&#233;n la clau API &gt; Crea una clau API &gt; Crea una clau API en un projecte nou. Copia la clau.</string>
+    <string name="tutorial_3">Enganxa la clau API aqu&#237;.</string>
+    <string name="tutorial_4">Est&#224;s a punt! Si necessites tornar a veure aquestes opcions, pots fer clic a aquest bot&#243; per mostrar-les i amagar-les.</string>
+    <string name="notice_text">El generador utilitza la IA Gemini de Google per generar guies d\'estudi i targetes did&#224;ctiques. Si b&#233; la IA pot ser una eina excel&#183;lent per a aquest tipus de tasca, tamb&#233; s\'ha d\'utilitzar amb precauci&#243;.\n\nEn particular, la IA pot generar targetes did&#224;ctiques i guies que tinguin:\n\n- Informaci&#243; imprecisa/enganyosa\n- Contingut ofensiu\n- Informaci&#243; esbiaixada\n- Contingut desactualitzat\n\nS\'aconsella complementar l\'&#250;s d\'aquesta aplicaci&#243; amb altres materials d\'estudi per garantir-ne la precisi&#243;.\n\nL\'aplicaci&#243; est&#224; dissenyada per utilitzar la versi&#243; gratu&#239;ta de Gemini. Si sou un desenvolupador amb altres claus API de Gemini, seguiu tots els passos de les instruccions despr&#233;s d\'aquest av&#237;s, inclosa la creaci&#243; d\'un projecte i una clau API nous. Aix&#242; evitar&#224; problemes amb els l&#237;mits de velocitat i l\'&#250;s facturat.</string>
+    <string name="notice_confirm">Ent&#232;s</string>
+    <string name="submit_button_getQuiz">Obt&#233;n preguntes</string>
+    <string name="submit_button_getStudyGuide">Obt&#233;n la guia d\'estudi</string>
+    <string name="notice_generating_studyGuide">Si us plau, tingueu en compte que generar guies d\'estudi, especialment de grans, pot trigar una mica, aproximadament 2&#8211;3 seccions per minut.</string>
+    <string name="main_tutorial1">Benvingut a Conor\'s Study Assistant! Guiem-te a trav&#233;s de les operacions b&#224;siques!</string>
+    <string name="main_tutorial2">Fes clic aqu&#237; per generar un nou q&#252;estionari o guia d\'estudi basat en un tema!</string>
+    <string name="main_tutorial3">Un cop hagis acabat de generar-ho, fes clic aqu&#237; per carregar-ho!</string>
+    <string name="main_tutorial4">Est&#224;s preparat per comen&#231;ar a estudiar!</string>
+    <string name="main_button_select">Selecciona un q&#252;estionari/guia</string>
+    <string name="main_button_generate_note">Comen&#231;a generant un q&#252;estionari o una guia d\'estudi aqu&#237;:</string>
+    <string name="main_button_generate">Genera un q&#252;estionari/guia</string>
+    <string name="quiz_questionNumber">Pregunta %1$d de %2$d</string>
+    <string name="quiz_score">Puntuaci&#243;: %1$d/%2$d (%3$d%%)</string>
+    <string name="getjson_language_label">Idioma</string>
+    <string name="getjson_isexam">Aix&#242; &#233;s un examen.</string>
+    <string name="getjson_quizorstudyguide_label">Q&#252;estionari o guia d\'estudi:</string>
+    <string name="getjson_section_limit_switch">Limitar el nombre de seccions?</string>
+    <string name="getjson_num_questions">Nombre de preguntes:</string>
+    <string name="getjson_num_topics">Nombre de temes:</string>
+    <string name="getjson_apioptions_button_on">Amaga la configuraci&#243; de la clau API</string>
+    <string name="getjson_apioptions_button_off">Mostra la configuraci&#243; de la clau API</string>
+    <string name="getjson_api_key_label">Clau API de Gemini</string>
+    <string name="getjson_api_key_note">Nota: Pots obtenir una clau API a https://aistudio.google.com/. Des d\'all&#224;, fes clic a &#8801; &gt; Obt&#233;n una clau API &gt; Crea una clau API &gt; Crea una clau API en un projecte nou.</string>
+    <string name="getjson_advancedoptions_on">Amaga les opcions avan&#231;ades</string>
+    <string name="getjson_advancedoptions_off">Mostra les opcions avan&#231;ades</string>
+    <string name="getjson_additionalpromptinfo">Sol&#183;licituds Addicionals d\'Indicacions</string>
+    <string name="quiz_correct">Correcte!</string>
+    <string name="quiz_incorrect">Incorrecte!</string>
+    <string name="quiz_select">Selecciona: %1$d</string>
+    <string name="quiz_submit">Envia</string>
+    <string name="quiz_next">Seg&#252;ent pregunta</string>
+    <string name="studyguide">Guia d\'estudi</string>
+    <string name="quiz">Quiz</string>
+    <string name="yes">S&#237;</string>
+    <string name="no">No</string>
+    <string name="error_apiKeyEmpty">El camp Clau API &#233;s visible per&#242; buit.</string>
+    <string name="error_topicNameEmpty">El tema no pot estar buit.</string>
+    <string name="studyguide_generating">La teva guia d\'estudi s\'est&#224; creant! Pot trigar una mica, especialment si &#233;s gran. Si us plau, sigues pacient! Permaneix en aquesta p&#224;gina fins que se\'t indiqui que la guardis!</string>
+    <string name="flashcard_generating">Les teves targetes did&#224;ctiques s\'estan creant! Pot trigar un minut o dos, si us plau, tingues paci&#232;ncia! Queda\'t en aquesta p&#224;gina fins que se\'t demani que les guardis!</string>
+    <string name="no_topic_toast">Es requereix un tema.</string>
+    <string name="no_api_key_toast">Es requereix una clau API.</string>
+    <string name="topicLabel">T&#242;pic d\'estudi/ Nom de l\'examen</string>
+    <string name="title_activity_study_list">Llista d\'estudi</string>
+    <string name="timeElapsed">Temps transcorregut:</string>
+    <string name="testOverLabel">Prova acabada!</string>
+    <string name="testOverScoreLabel">Has obtingut:</string>
+    <string name="testOverTimeLabel">Hora:</string>
+    <string name="testOverBackLabel">Torna al men&#250; principal</string>
+    <string name="generating_study_guide">Generant guia d\'estudi&#8230;</string>
+    <string name="generating_questions">Generant un q&#252;estionari&#8230;</string>
+    <string name="quiz_gen_successful">S\'ha generat el q&#252;estionari correctament!</string>
+
+
+</resources>

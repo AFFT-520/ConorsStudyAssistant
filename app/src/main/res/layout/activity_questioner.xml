@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Questioner">
+
+    <LinearLayout
+        android:id="@+id/questions_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/questionNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Score: 0/0 (0%)"
+                android:textAlignment="textEnd" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time Elapsed: 00:00:00"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:layout_marginBottom="20dp"
+            android:text="Lorem Ipsum"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/selectNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select: #" />
+
+        <LinearLayout
+            android:id="@+id/inputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="120sp">
+
+            <LinearLayout
+                android:id="@+id/choicesLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="24sp"
+                tools:text="Correct/Incorrect" />
+
+            <TextView
+                android:id="@+id/explanation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Explanation" />
+
+            <Button
+                android:id="@+id/submitNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit/Next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/correctAnswersLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/correctAnswerA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="A"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/correctAnswerB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="B"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/correctAnswerC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="C"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/correctAnswerD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="D"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/correctAnswerE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="E"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/correctAnswerF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="F"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="278dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            app:srcCompat="@drawable/logo_circle" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="271dp"
+            android:layout_height="60dp"
+            android:text="Conor's Study Assistant"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <Button
+            android:id="@+id/getstarted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/main_button_select"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <TextView
+            android:id="@+id/generateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_button_generate_note"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/generateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_button_generate" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© Conor Rynne" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+
+    </LinearLayout>
+
+
+    <!-- activity_main.xml -->
+    <!-- Your existing layout content, e.g., binding.getstarted, binding.generateButton -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/tutorial_compose_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Make sure this ComposeView overlays other content if needed -->
+    <!-- You might need to put it inside a FrameLayout that's on top -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

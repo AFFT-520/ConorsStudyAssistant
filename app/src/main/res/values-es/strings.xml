@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Study Assistant</string>
+    
+
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="skip">Saltar</string>
+    <string name="finish">Finalizar</string>
+    <string name="apikeymissing">Falta la clave API. Por favor, config&#250;rela.</string>
+    <string name="quiz_saved_successfully">&#161;Cuestionario guardado con &#233;xito!</string>
+    <string name="notice_title">Una nota sobre el uso del generador&#8230;</string>
+    <string name="tutorial_1">Antes de comenzar, necesitaremos obtener una clave de API de Google Gemini para ti.</string>
+    <string name="tutorial_2">Pulsa el enlace en este mensaje. Desde ah&#237;, pulsa &#8801; &gt; Obtener clave API &gt; Crear clave API &gt; Crear clave API en un nuevo proyecto. Copia la clave.</string>
+    <string name="tutorial_3">Pega la Clave de API aqu&#237;.</string>
+    <string name="tutorial_4">&#161;Ya puedes continuar! Si necesitas ver estas opciones de nuevo, puedes hacer clic en este bot&#243;n para mostrarlas y ocultarlas.</string>
+    <string name="notice_text">El generador utiliza la IA Gemini de Google para generar gu&#237;as de estudio y tarjetas did&#225;cticas. Si bien la IA puede ser una herramienta excelente para este tipo de tarea, tambi&#233;n debe utilizarse con precauci&#243;n.\n\nEn particular, la IA puede generar tarjetas did&#225;cticas y gu&#237;as que tengan:\n\n- Informaci&#243;n inexacta o enga&#241;osa\n- Contenido ofensivo\n- Informaci&#243;n sesgada\n- Contenido desactualizado\n\nSe aconseja complementar el uso de esta aplicaci&#243;n con otros materiales de estudio para garantizar la exactitud.\n\nLa aplicaci&#243;n est&#225; dise&#241;ada para usar el nivel gratuito de Gemini. Si eres un desarrollador con otras claves de API de Gemini, por favor sigue cada paso de las instrucciones despu&#233;s de este aviso de todos modos, incluyendo la creaci&#243;n de un nuevo proyecto y una nueva clave de API. Esto evitar&#225; problemas con los l&#237;mites de velocidad y el uso facturable.</string>
+    <string name="notice_confirm">Entendido</string>
+    <string name="submit_button_getQuiz">Obtener Preguntas</string>
+    <string name="submit_button_getStudyGuide">Obt&#233;n la gu&#237;a de estudio</string>
+    <string name="notice_generating_studyGuide">Ten en cuenta que generar gu&#237;as de estudio, especialmente las grandes, puede tardar un poco, aproximadamente de 2 a 3 secciones por minuto.</string>
+    <string name="main_tutorial1">&#161;Bienvenido a Conor\'s Study Assistant! &#161;Te guiaremos a trav&#233;s de las operaciones b&#225;sicas!</string>
+    <string name="main_tutorial2">&#161;Haz clic aqu&#237; para generar un nuevo cuestionario o gu&#237;a de estudio basado en un tema!</string>
+    <string name="main_tutorial3">Una vez que hayas terminado de generar, &#161;haz clic aqu&#237; para cargarlo!</string>
+    <string name="main_tutorial4">&#161;Est&#225;s listo para empezar a estudiar!</string>
+    <string name="main_button_select">Seleccionar Examen/Gu&#237;a</string>
+    <string name="main_button_generate_note">Comienza generando un cuestionario o gu&#237;a de estudio aqu&#237;:</string>
+    <string name="main_button_generate">Generar Quiz/Gu&#237;a</string>
+    <string name="quiz_questionNumber">Pregunta %1$d de %2$d</string>
+    <string name="quiz_score">Puntuaci&#243;n: %1$d/%2$d (%3$d%%)</string>
+    <string name="getjson_language_label">Idioma</string>
+    <string name="getjson_isexam">Este es un examen.</string>
+    <string name="getjson_quizorstudyguide_label">Cuestionario o gu&#237;a de estudio:</string>
+    <string name="getjson_section_limit_switch">&#191;Limitar el n&#250;mero de secciones?</string>
+    <string name="getjson_num_questions">N&#250;mero de preguntas:</string>
+    <string name="getjson_num_topics">N&#250;mero de temas:</string>
+    <string name="getjson_apioptions_button_on">Ocultar la configuraci&#243;n de la clave API</string>
+    <string name="getjson_apioptions_button_off">Mostrar Configuraci&#243;n de la Clave API</string>
+    <string name="getjson_api_key_label">Clave API de Gemini</string>
+    <string name="getjson_api_key_note">Nota: Puedes obtener una clave de API en https://aistudio.google.com/. Desde all&#237;, haz clic en &#8801; &gt; Obtener clave de API &gt; Crear clave de API &gt; Crear clave de API en un nuevo proyecto.</string>
+    <string name="getjson_advancedoptions_on">Ocultar opciones avanzadas</string>
+    <string name="getjson_advancedoptions_off">Mostrar opciones avanzadas</string>
+    <string name="getjson_additionalpromptinfo">Solicitudes de indicaciones adicionales</string>
+    <string name="quiz_correct">&#161;Correcto!</string>
+    <string name="quiz_incorrect">&#161;Incorrecto!</string>
+    <string name="quiz_select">Seleccionar: %1$d</string>
+    <string name="quiz_submit">Enviar</string>
+    <string name="quiz_next">Siguiente pregunta</string>
+    <string name="studyguide">Gu&#237;a de estudio</string>
+    <string name="quiz">Cuestionario</string>
+    <string name="yes">S&#237;</string>
+    <string name="no">No</string>
+    <string name="error_apiKeyEmpty">El campo Clave API es visible pero est&#225; vac&#237;o.</string>
+    <string name="error_topicNameEmpty">El tema no puede estar vac&#237;o.</string>
+    <string name="studyguide_generating">&#161;Tu gu&#237;a de estudio se est&#225; creando! Podr&#237;a tardar un poco, especialmente si es m&#225;s extensa. &#161;Por favor, ten paciencia! &#161;Permanece en esta p&#225;gina hasta que se te indique que guardes!</string>
+    <string name="flashcard_generating">&#161;Tus tarjetas did&#225;cticas est&#225;n siendo creadas! Puede tardar un minuto o dos, &#161;ten paciencia! Permanece en esta p&#225;gina hasta que se te indique que guardes.</string>
+    <string name="no_topic_toast">Se requiere un tema.</string>
+    <string name="no_api_key_toast">Se requiere una clave API.</string>
+    <string name="topicLabel">Tema de estudio/Nombre del examen</string>
+    <string name="title_activity_study_list">Lista de estudio</string>
+    <string name="timeElapsed">Tiempo transcurrido:</string>
+    <string name="testOverLabel">&#161;Examen terminado!</string>
+    <string name="testOverScoreLabel">Has obtenido:</string>
+    <string name="testOverTimeLabel">Hora:</string>
+    <string name="testOverBackLabel">Volver al Men&#250; Principal</string>
+    <string name="generating_study_guide">Generando gu&#237;a de estudio&#8230;</string>
+    <string name="generating_questions">Generando cuestionario&#8230;</string>
+    <string name="quiz_gen_successful">&#161;Cuestionario generado con &#233;xito!</string>
+
+
+</resources>

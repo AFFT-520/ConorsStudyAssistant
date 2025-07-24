@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Study Assistant</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="skip">Skip</string>
+    <string name="finish">Finish</string>
+    <string name="apikeymissing">API Key is missing. Please configure it.</string>
+    <string name="quiz_saved_successfully">Quiz saved successfully!</string>
+    <string name="notice_title">A note on using the generator…</string>
+    <string name="tutorial_1">Before we begin, we will need to get you an Google Gemini API key.</string>
+    <string name="tutorial_2">Tap the link in this message. From there, tap ≡ > Get API Key > Create API Key > Create API Key in New Project. Copy the key.</string>
+    <string name="tutorial_3">Paste the API Key into here.</string>
+    <string name="tutorial_4">You\'re good to go! If you need to see these options again, you can click this button to show and hide them.</string>
+    <string name="notice_text">The generator uses Google\'s Gemini AI to generate study guides and flash cards. While AI can be an excellent tool for this kind of task, it should also be used with care.\n\nIn particular, the AI can generate flashcards and guides that have:\n\n- Inaccurate/Misleading Information\n- Offensive Content\n- Biased Information\n- Outdated Content\n\nIt is advised to supplement use of this application with other study materials to ensure accuracy.\n\nThe application is made to use Gemini\'s free-tier. If you are a developer with other Gemini API keys, please follow every step of the instructions after this notice anyway, including the creation of a new project and API key. This will prevent mishaps with rate limits and billed usage.</string>
+    <string name="notice_confirm">Understood</string>
+    <string name="submit_button_getQuiz">Get Questions</string>
+    <string name="submit_button_getStudyGuide">Get Study Guide</string>
+    <string name="notice_generating_studyGuide">Please note that generating study guides, especially big ones, can take a little while, roughly 2–3 sections per minute.</string>
+    <string name="main_tutorial1">Welcome to Conor\'s Study Assistant! Let\'s guide you through the basic operations!</string>
+    <string name="main_tutorial2">Click here to generate a new quiz or study guide based on a topic!</string>
+    <string name="main_tutorial3">Once you are done generating, click here to load it!</string>
+    <string name="main_tutorial4">You\'re all set to begin studying!</string>
+    <string name="main_button_select">Select Quiz/Guide</string>
+    <string name="main_button_generate_note">Start by generating a quiz or study guide here:</string>
+    <string name="main_button_generate">Generate Quiz/Guide</string>
+    <string name="quiz_questionNumber">Question %1$d of %2$d</string>
+    <string name="quiz_score">Score: %1$d/%2$d (%3$d%%)</string>
+    <string name="getjson_language_label">Language</string>
+    <string name="getjson_isexam">This is an exam</string>
+    <string name="getjson_quizorstudyguide_label">Quiz or Study Guide:</string>
+    <string name="getjson_section_limit_switch">Limit Number of Sections?</string>
+    <string name="getjson_num_questions">Number of Questions:</string>
+    <string name="getjson_num_topics">Number of Topics:</string>
+    <string name="getjson_apioptions_button_on">Hide API Key Config</string>
+    <string name="getjson_apioptions_button_off">Show API Key Config</string>
+    <string name="getjson_api_key_label">Gemini API Key</string>
+    <string name="getjson_api_key_note">Note: You can get an API key at https://aistudio.google.com/. From there, click on ≡ > Get API Key > Create API Key > Create API Key in New Project.</string>
+    <string name="getjson_advancedoptions_on">Hide Advanced Options</string>
+    <string name="getjson_advancedoptions_off">Show Advanced Options</string>
+    <string name="getjson_additionalpromptinfo">Additional Prompt Requests</string>
+    <string name="quiz_correct">Correct!</string>
+    <string name="quiz_incorrect">Incorrect!</string>
+    <string name="quiz_select">Select: %1$d</string>
+    <string name="quiz_submit">Submit</string>
+    <string name="quiz_next">Next Question</string>
+    <string name="studyguide">Study Guide</string>
+    <string name="quiz">Quiz</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="error_apiKeyEmpty">API Key field is visible but empty.</string>
+    <string name="error_topicNameEmpty">Topic cannot be empty</string>
+    <string name="studyguide_generating">Your study guide is being made! It may take a little while, especially for a bigger one. Please be patient! Stay on this page until prompted to save!</string>
+    <string name="flashcard_generating">Your flashcards are being made! It may take a minute or two, please be patient! Stay on this page until prompted to save!</string>
+    <string name="no_topic_toast">A topic is required.</string>
+    <string name="no_api_key_toast">An API key is required.</string>
+    <string name="topicLabel">Study Topic/Exam Name</string>
+    <string name="title_activity_study_list">StudyList</string>
+    <string name="timeElapsed">Time Elapsed:</string>
+    <string name="testOverLabel">Test Over!</string>
+    <string name="testOverScoreLabel">You scored:</string>
+    <string name="testOverTimeLabel">Time:</string>
+    <string name="testOverBackLabel">Back to Main Menu</string>
+    <string name="generating_study_guide">Generating study guide…</string>
+    <string name="generating_questions">Generating quiz…</string>
+    <string name="quiz_gen_successful">Quiz generated successfully!</string>
+
+
+</resources>
